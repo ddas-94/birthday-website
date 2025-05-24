@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Muffin ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: #fffafa;
+      color: #333;
+      text-align: center;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(to right, #f8e1e1, #ffe6f0);
+      padding: 3rem 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      animation: fadeInDown 1s ease-out;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 1s ease-out;
+    }
+    h2 {
+      font-size: 1.75rem;
+      color: #b03060;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .gallery-item {
+      text-align: center;
+	  flex: 1 1 calc(50% - 1.5rem);
+      max-width: calc(50% - 1.5rem);
+    }
+    .gallery img {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+    .caption {
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #666;
+    }
+    .slideshow {
+      position: relative;
+      max-width: 100%;
+      margin: 2rem auto;
+    }
+    .slide {
+      display: none;
+    }
+    .slide img {
+      width: 50%;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .slide-caption {
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 1rem;
+      color: #555;
+    }
+    .active {
+      display: block;
+      animation: fadeIn 1s ease-in-out;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #666;
+      padding: 2rem;
+      background: #f4e4e1;
+      animation: fadeInUp 1s ease-out;
+    }
+    audio {
+      display: none;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p, section p {
+        font-size: 1rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="romantic-background.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <header>
+    <h1>Happy Birthday Muffin ❤️</h1>
+    <p>To the love of my life 💖, who came into my world and made it bloom 🌸</p>
+	<p>Here, in a small corner on the internet, I engrave our story to live on till eternity </p>
+  </header>
+
+  <section>
+    <h2>Our Story</h2>
+    <p>From the first "Hi" 💍 to falling in love quicker than we imagined — every day since has been magical ✨. Your smile lights up my world, and your presence makes it whole 💝</p>
+  </section>
+
+  <section>
+    <h2>Slide down the Lane</h2>
+    <div class="slideshow">
+      <div class="slide active">
+        <img src="C:\Users\debje\Downloads\e53b4db8-2f6c-4ade-9975-f035de0c9d3c.jpeg" alt="Memory 1">
+        <div class="slide-caption">💖💖💖💖💖💖💖</div>
+      </div>
+      <div class="slide">
+        <img src="C:\Users\debje\Downloads\IMG_1280.jpeg" alt="Memory 2">
+        <div class="slide-caption">💞💞💞💞💞💞💞</div>
+      </div>
+	  </div>
+      <div class="slide">
+        <img src="C:\Users\debje\Downloads\C5675CAC-55A6-4A5B-9464-DB338AD499E0.png" alt="Memory 2">
+        <div class="slide-caption">🥰🥰🥰🥰🥰🥰</div>
+      </div>
+      <div class="slide">
+        <img src="C:\Users\debje\Downloads\7eff99af-4f3c-4836-872d-064cffaf9c6e.jpeg" alt="Memory 3">
+        <div class="slide-caption">😂😂😂😂😂😂😂😂</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nostalgic Reminiscense</h2>
+    <p>Here’s to the roots of your laughter and kindness — snapshots of a lovely girl becoming the amazing woman I love today 🌼</p>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\Childhood1.PNG" alt="Childhood photo 1" />
+        <div class="caption">Okay, seriously who is this 🤣🤣🤣 🌸</div>
+      </div>
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\Childhood2.PNG" alt="Childhood photo 2" />
+        <div class="caption">Still wondering how this girl said YES 😇</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Couple Moments</h2>
+    <p>Moments frozen in time that reflect the warmth, fun, and togetherness of our journey 💑</p>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\e63ce387-1c49-47d6-a6a0-2f424258d99c.jpeg" alt="The First Time" />
+        <div class="caption">The First Time ☕❤️</div>
+      </div>
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\IMG_1318.jpeg" alt="Couple photo 2" />
+        <div class="caption">Silly selfies and sweet memories 📸</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Some Beautiful Memories</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\IMG_1426.jpeg" alt="Special moment 1" />
+        <div class="caption">Someone made an amazing plan 😂</div>
+      </div>
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\72860079-DC82-4DE0-867B-C7C1399F0CCD.PNG" alt="Special moment 2" />
+        <div class="caption">Our very first trend 😍</div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <h2>The Stars Aligned for Us</h2>
+    <p>These starmaps mark two of the most magical moments in our journey — the night it all started and the day we’ll begin our forever 💍🌌</p>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\Starmap 6th Feb, 2025.png" alt="6th Feb, 2025">
+        <div class="caption">The night our souls found each other 🌠</div>
+      </div>
+      <div class="gallery-item">
+        <img src="C:\Users\debje\Downloads\Starmap 6th Feb, 2026.png" alt="6th Feb, 2026">
+        <div class="caption">The night our forever begins 💫</div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <h2>My Letter to You</h2>
+    <p>Dear Muffin,<br>
+    I never thought an arranged meeting would lead me to someone who feels like home. You’re my calm, my joy, and my heartbeat. On your special day 🎂, I just want to say thank you — for loving me, for trusting me, for being you 💗<br>
+    Forever yours,<br>
+    Bunny 🐰</p>
+  </section>
+  
+  <section>
+    <h2>What's Next For Us</h2>
+    <p>As we turn yet another page in our story, I can only imagine the countless adventures, dreams, and kisses we’ve yet to share together 💫<br> 
+	Here's to planning our forever, hand in hand, heart to heart — through laughter, through dreams, through everything ❤️</p>
+  </section>
+  
+  <footer>
+    &copy; 2025 Happy Birthday Muffin | Created with love, just for you 💖
+  </footer>
+
+  <script>
+    let slides = document.querySelectorAll('.slide');
+    let current = 0;
+    setInterval(() => {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 3000);
+  </script>
+</body>
+</html>
